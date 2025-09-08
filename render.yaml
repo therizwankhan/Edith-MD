@@ -12,15 +12,15 @@ services:
       - key: SESSION_ID
         sync: false
       - key: OWNER_NUMBER
-        sync: false
+        sync: 03431906764
       - key: STICKER_NAME
-        sync: false
+        sync: true
       - key: PREFIX
         sync: false
       - key: MODE
         sync: false
       - key: ALWAYS_ONLINE
-        sync: false
+        sync: true
       - key: AUTO_VOICE
         sync: false
       - key: AUTO_REPLY
@@ -36,13 +36,13 @@ services:
       - key: DELETE_LINK
         sync: false
       - key: ANTI_LINK
-        sync: false
+        sync: true
       - key: ADMIN_EVENTS
         sync: false
       - key: WELCOME
         sync: false
       - key: ANTI_CALL
-        sync: false
+        sync: true
       - key: ANTI_BAD_WORD
         sync: false
       - key: AUTO_RECORDING
